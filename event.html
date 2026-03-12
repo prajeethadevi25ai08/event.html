@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>College Event Registration</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+}
+
+header{
+    background:#c663ff;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+h2{
+    color:#3a76bb;
+}
+
+.event{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+button{
+    background:#3498db;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#2980b9;
+}
+
+input, select{
+    width:100%;
+    padding:8px;
+    margin:8px 0;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Nagarathinam Angalamal Arts And Science College</h1>
+<p>Technical & Non-Technical Events</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Register Your College</h2>
+
+<form>
+<label>College Name</label>
+<input type="text" placeholder="Enter College Name">
+
+<label>Student Name</label>
+<input type="text" placeholder="Enter Student Name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter Email">
+
+<label>Select Event Type</label>
+<select>
+<option>Technical Event</option>
+<option>Non Technical Event</option>
+</select>
+
+<label>Select Event</label>
+<select>
+<option>Hackathon - ₹500</option>
+<option>Paper Presentation - ₹300</option>
+<option>Quiz - ₹200</option>
+<option>Gaming - ₹150</option>
+<option>Photography - ₹250</option>
+</select>
+
+<button type="submit">Register</button>
+
+</form>
+</div>
+
+<div class="card">
+<h2>Technical Events</h2>
+
+<div class="event">
+<span>Hackathon</span>
+<span>₹500</span>
+</div>
+
+<div class="event">
+<span>Paper Presentation</span>
+<span>₹300</span>
+</div>
+
+<div class="event">
+<span>Coding Contest</span>
+<span>₹250</span>
+</div>
+
+</div>
+
+<div class="card">
+<h2>Non-Technical Events</h2>
+
+<div class="event">
+<span>Quiz</span>
+<span>₹200</span>
+</div>
+
+<div class="event">
+<span>Gaming</span>
+<span>₹150</span>
+</div>
+
+<div class="event">
+<span>Photography</span>
+<span>₹250</span>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
